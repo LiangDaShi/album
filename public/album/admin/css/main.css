@@ -1,0 +1,148 @@
+.grid .gallary_item {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 8px;
+    vertical-align: baseline;
+    width: 225px;
+}
+.grid .gallary_item table{
+    border:none;
+    margin:0;
+}
+.grid .gallary_item tr{
+    background: transparent;
+}
+.grid .gallary_item th, .grid .gallary_item td{
+    border:none;
+    padding:0;
+}
+
+.grid .mini{
+    width:160px;
+}
+.grid .sel_on{
+    background:#eee;
+}
+.grid .pic_box a{
+    position: relative;
+    display: inline-block;
+}
+.grid .pic_box a label{
+    display: none;
+}
+
+
+.grid .pic_box a em{
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+    font-size: 12px;
+    line-height:20px;
+    height: 20px;
+    padding:0 4px;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    border-radius: 4px;
+}
+.grid .pic_box a i{
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    font-style: normal;
+    font-size: 12px;
+    line-height:20px;
+    height: 20px;
+    padding:0 4px;
+    background-color: rgba(0,200,0,0.6);
+    color: #fff;
+    border-radius: 4px;
+}
+.grid .pic_box a:hover label{
+    display: block;
+    position: absolute;
+    top: 0;
+    font-size: 12px;
+    width: 100%;
+    line-height:25px;
+    height: 25px;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    text-indent: 4px;
+    z-index: 11;
+}
+.grid .album .pic_box img{
+    border:1px solid #ccc;
+    padding:4px;
+    background:#fff;
+    border-radius:3px;
+} 
+.grid .mini .pic_box img{
+    max-width: 150px;
+    max-height: 150px;
+}
+.grid .pic_box a span.lock{
+    position: absolute;
+    left:10px;
+    top:10px;
+    width:16px;
+    height: 16px;
+    display: block;
+    background: url('../../../base/admin/images/i-lock.png') no-repeat;
+    z-index:10;
+}
+.grid .pic_box table{width:100%}
+.grid .pic_box table td{
+    text-align: left;
+    vertical-align: middle;
+}
+.grid .pic_ctl{
+    min-height:20px;
+    height:auto !important;
+    height:20px;
+}
+.grid .album .pic_ctl .btns{
+    padding:0 5px;
+}
+.grid .pic_ctl li{
+    display:inline;
+}
+.grid .info .title{
+    font-size:14px;
+    line-height:2;
+    height:30px;
+    overflow: hidden;
+}
+.grid .info .title input.selitem{
+    margin:6px 5px 0 0 !important;
+    margin:2px 5px 0 0;
+    float:left;
+}
+.grid .info .title .name{
+    float:left;
+    width:200px;
+}
+.grid .info .title .name input{
+    width:180px;
+}
+.grid .mini .info .title{
+    width: 160px;
+}
+.grid .sel_on .info .title .name a{
+    display:block;
+    cursor: text;
+    text-decoration:none;
+}
+.grid .sel_on .info .title .name a:hover{
+    background:#ffffcc;
+    text-decoration:none;
+}
+.grid .info .info_col{
+    height:44px;
+    line-height:22px;
+}
+.grid .info .info_col span.cover{
+    background:green;
+    color:white;
+    padding:0 4px;
+}
